@@ -1,6 +1,6 @@
 #include "util.h"
 void init(){
-	system("mode con cols=116 lines=25 | title °Ë °­È­ÇÏ±â");
+	system("mode con cols=116 lines=25 | title ê²€ê°•í™”í•˜ê¸°(ë² íƒ€)");
 
 	HANDLE consoleHandle = GetStdHandle(STD_OUTPUT_HANDLE);
 	CONSOLE_CURSOR_INFO consoleCursor = { 0, };
